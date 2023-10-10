@@ -41,7 +41,7 @@ class FirstAppBar extends StatelessWidget {
         SliverList(
           delegate: SliverChildBuilderDelegate(
             childCount: 20,
-                (context, index) => ListTile(
+            (context, index) => ListTile(
               leading: Icon(Icons.person),
               title: Text("$index"),
               trailing: Icon(Icons.account_balance),

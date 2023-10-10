@@ -27,7 +27,10 @@ class ThirdAppBar extends StatelessWidget {
                 leading: Icon(Icons.menu),
               ),
               body: Center(
-                child: Text("Page $index", style: TextStyle(fontSize: 50),),
+                child: Text(
+                  "Page $index",
+                  style: TextStyle(fontSize: 50),
+                ),
               ),
             ),
           );

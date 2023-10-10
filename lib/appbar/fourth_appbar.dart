@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
 class FourthAppBar extends StatelessWidget {
-  const FourthAppBar({
-    super.key,
-  });
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

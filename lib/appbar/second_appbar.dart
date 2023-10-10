@@ -13,7 +13,8 @@ class SecondAppBar extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            expandedHeight: MediaQuery.of(context).size.height, // 컨텍스트는 화면 정보!!!
+            expandedHeight:
+                MediaQuery.of(context).size.height, // 컨텍스트는 화면 정보!!!
             leading: Icon(Icons.menu),
             title: Text("Around"),
             flexibleSpace: PageView.builder(
