@@ -7,6 +7,7 @@ class FourthAppBar extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
+        elevation: 0.0,
       ),
       body: PageView.builder(
         itemCount: 10,

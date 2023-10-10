@@ -13,12 +13,12 @@ class FirstAppBar extends StatelessWidget {
     return CustomScrollView(
       slivers: [
         SliverAppBar(
-          snap: true,
           // 살짝만 올려도 고정되지 않은 앱바가 튀어나옴
-          floating: true,
+          snap: true,
           // 살짝 올리면 위의 메뉴를 살짝 보여줌
-          pinned: false,
+          floating: true,
           // 고정 시킬지 여부
+          pinned: false,
           title: Text(
             "AppBar2",
             style: TextStyle(color: Colors.white),
