@@ -8,8 +8,6 @@ class SecondAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // 예제1 : 실무용 앱바
-      // body: FirstAppBar(),
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
